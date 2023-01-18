@@ -28,8 +28,10 @@
   
   <h3> Steps to initialize this project locally on your machine <h3>
     
-    1. Copy link from Github repo and clone to your coding workspace
+    1. Copy link from [Github](https://github.com/CRMclaughlin/social-network-api) repo and clone to your coding workspace
     2. In your terminal use the command `npm init -y` to install Node Package Manager
+    3. In your terminal use the command `npm run dev` to start your server
+    4. Open your API tool and follow the steps described in usage
 
   
 ## Usage 
