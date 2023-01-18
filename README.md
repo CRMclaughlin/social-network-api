@@ -61,6 +61,12 @@
   
 ## Demo
 
+<img width="1427" alt="mongoDBscreenshot" src="https://user-images.githubusercontent.com/111208223/213318806-e57bf540-2c03-4502-b929-d3c67bb3a7af.png">
+   
+   
+![PostmanScreenshotsocial](https://user-images.githubusercontent.com/111208223/213318848-ef30a3a6-6325-4636-a29a-18d6933922ea.png)
+
+   
 
   
 ## License
