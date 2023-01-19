@@ -12,8 +12,8 @@ module.exports = {
   },
   findAll: async function(req, res) {
     try {
-      const thought = await Thought.find()
-      res.json(thought)
+      const thoughts = await Thought.find()
+      res.json(thoughts)
     } catch(err) {
       res.status(500).json(err)
     }
