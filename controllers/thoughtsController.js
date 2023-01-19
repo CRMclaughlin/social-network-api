@@ -12,7 +12,6 @@ module.exports = {
   },
   findAll: async function(req, res) {
     try {
-      
       const thought = await Thought.find()
       res.json(thought)
     } catch(err) {
