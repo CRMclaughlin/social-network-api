@@ -1,4 +1,4 @@
-const { Schema, Types, model} = require('mongoose')
+const { Schema, Types, model} = require('mongoose');
 
 const reactionSchema = new Schema(
     {
@@ -9,7 +9,7 @@ const reactionSchema = new Schema(
         reactionBody: {
             type: String,
             Required: true,
-            maxlength: 140,
+            maxlength: 280,
         },
         username: {
             type: String,
@@ -18,13 +18,8 @@ const reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: date => formatDate(date)
         },
     }, {
-        // toObject: {
-        //     getters: true,
-        //     virtuals: true
-        // },
         toJSON: {
             getters: true,
             virtuals: true
@@ -37,13 +32,12 @@ const thoughtSchema = new Schema(
         thoughtText: {
             type: String,
             required: true,
-            max: 140,
+            max: 280,
             min: 1
         },
         createdAt: {
             type: Date,
             default: Date.now,
-            get: date => formatDate(date)
         },
         username: {
             type: String,
@@ -51,10 +45,6 @@ const thoughtSchema = new Schema(
         },
         reactions: [reactionSchema]
     }, {
-        // toObject: {
-        //     getters: true,
-        //     virtuals: true
-        // },
         toJSON: {
             getters: true,
             virtuals: true

@@ -59,6 +59,10 @@
   * Update a thought by its `id`: `PUT /api/thoughts/:thoughtId`
   * Delete a thought by its `id`: `DEL /api/thoughts/:thoughtId`
 
+**REACTION**
+
+* Create a reaction: `POST /api/thoughts/:thoughtId/reactions`
+* Delete a reaction by the `reactionId`: `DEL /api/thoughts/:thoughtId/reactions/:reactionId`
   
 ## Demo
 
@@ -73,7 +77,7 @@ Click the projector for a short video on the users routes [📽️](https://driv
 
 ## ToDo's
 
-* `Thoughts Routes` not working correctly.
+
 * Record video demonstration
 
   
