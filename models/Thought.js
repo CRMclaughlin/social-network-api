@@ -21,10 +21,10 @@ const reactionSchema = new Schema(
             get: date => formatDate(date)
         },
     }, {
-        toObject: {
-            getters: true,
-            virtuals: true
-        },
+        // toObject: {
+        //     getters: true,
+        //     virtuals: true
+        // },
         toJSON: {
             getters: true,
             virtuals: true
@@ -51,10 +51,10 @@ const thoughtSchema = new Schema(
         },
         reactions: [reactionSchema]
     }, {
-        toObject: {
-            getters: true,
-            virtuals: true
-        },
+        // toObject: {
+        //     getters: true,
+        //     virtuals: true
+        // },
         toJSON: {
             getters: true,
             virtuals: true

@@ -5,6 +5,7 @@
   * [Installation](#installation)
   * [Usuage](#usage)
   * [Demo](#demo)
+  * [ToDo's](#todos)
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -45,7 +46,7 @@
 
   * Update a user by its `id`: `PUT /api/users/:userId`
 
-  * Delete a user by its `id`: `DEL /api/user/:userId`
+  * Delete a user by its `id`: `DEL /api/users/:userId`
 
 **FRIEND**
   * Add a new friend to a user's friend list: `POST /api/users/:userid/friends/:friendId`
@@ -66,7 +67,10 @@
    
 ![PostmanScreenshotsocial](https://user-images.githubusercontent.com/111208223/213318848-ef30a3a6-6325-4636-a29a-18d6933922ea.png)
 
-   
+## ToDo's
+
+* `Thoughts Routes` not working correctly.
+* Record video demonstration
 
   
 ## License
