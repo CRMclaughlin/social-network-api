@@ -5,7 +5,6 @@
   * [Installation](#installation)
   * [Usuage](#usage)
   * [Demo](#demo)
-  * [ToDo's](#todos)
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -81,12 +80,6 @@ Click the projector for a short video on the `reaction` routes [📽️](https:/
    
 ![PostmanScreenshotsocial](https://user-images.githubusercontent.com/111208223/213318848-ef30a3a6-6325-4636-a29a-18d6933922ea.png)
 
-## ToDo's
-
-
-* Record video demonstration
-
-  
 ## License
 N/A
   
